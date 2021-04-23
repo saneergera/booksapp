@@ -1,0 +1,33 @@
+To run project on localhost 
+
+-install nodejs
+-install npm
+
+then run command from root folder
+- npm run-script build
+  (it will create the build folder for frontend deployment)
+after that run command
+- npm run-script start 
+  (it will start execute the app at localhost/5000)
+
+To deploy project on cloud 
+- make ec2 instance
+- configure rules
+- connect via ssh
+- when it starts run following commands
+   - sudo apt-get update 
+   - sudo apt-get install nodejs
+   - sudo apt-get install nginx
+   - sudo service nginx start
+   - sudo service nginx status
+   
+configure nginx file
+create directories frontend and backend(in ubuntu)
+-upload build folder to frontend (in ubuntu)
+-upload backend folder, uploads folder, package.json, .eslintrc, package-lock.json to backend folder(in ubuntu) 
+- then install the dependencies "npm install" and run "npm run-script start"
+
+
+Change the variables for plagirism issues and then upload to your github repository and create the readme file.
+
+ 
