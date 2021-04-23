@@ -5,7 +5,7 @@
   "description": "Ecommerce Bookstore like Amazon",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server"
   },
   "author": "",
   "license": "ISC",
