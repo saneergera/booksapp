@@ -17,8 +17,8 @@ const database = (mongoose.connect(process.env.MONGODB_URL || 'mongodb+srv://dbb
   useUnifiedTopology: true,
   useCreateIndex: true,
 }));
-console.log("hi shoe")
-console.log(database);
+
+
 app.use('/api/uploads', uploadRouter);
 app.use('/api/users', userRouter);
 app.use('/api/products', productRouter);
